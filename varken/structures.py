@@ -175,6 +175,7 @@ class OmbiMovieRequest(NamedTuple):
     markedAsDenied: str = None
     markedAsDenied4K: str = None
     overview: str = None
+    playedByUsersCount: int = None
     posterPath: str = None
     qualityOverride: int = None
     released: bool = None
@@ -258,6 +259,7 @@ class SonarrEpisode(NamedTuple):
     hasFile: bool = None
     id: int = None
     monitored: bool = None
+    runtime: int = None
     overview: str = None
     seasonNumber: int = None
     seriesId: int = None
