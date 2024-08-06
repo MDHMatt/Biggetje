@@ -13,3 +13,4 @@ varken-venv/
 venv/
 logs/
 __pycache__
+.env
